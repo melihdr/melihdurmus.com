@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "GeistMono";
+  src: url("../geist-mono/GeistMono-Medium-BF65694d060c7bc.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  font-family: "GeistMono";
+  font-size: 14px;
+}
+
+.button {
+  border: none;
+  display: inline;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #003566;
+  color: whitesmoke;
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 5vw;
+  padding: 2vw 20vw;
+}
+
+.personal_photo {
+  width: 12vw;
+  height: 16vw;
+}
+
+.top-button {
+  margin-right: 1vw;
+  border: none;
+  cursor: pointer;
+}
+
+.top-button:hover {
+  background-color: #003566;
+  color: whitesmoke;
+}

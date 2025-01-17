@@ -1,0 +1,9 @@
+.book-author {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 3vw;
+}
+
+.reading-div {
+  margin-top: 20px;
+}
