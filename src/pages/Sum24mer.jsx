@@ -1,6 +1,6 @@
 import React from "react";
-import { data } from "../data/amsterdam";
-import "./css/amsterdam.css";
+import { data } from "../../data/amsterdam";
+import "../css/amsterdam.css";
 
 function TextComponent() {
   return (
